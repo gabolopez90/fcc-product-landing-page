@@ -1,3 +1,5 @@
+![Mi Logo](https://github.com/gabolopez90/gabolopez90.github.io/blob/master/img/GL.ico)
+
 # FCC - PRODUCT LANDING PAGE
 
 - **User Story #1**: My product landing page should have a header element with a corresponding ```id="header"```.

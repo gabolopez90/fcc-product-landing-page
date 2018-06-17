@@ -10,8 +10,8 @@
 <body>
 	<header id="header">
 		
-		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed" id="nav-bar">
-			<a class="navbar-brand" href="#" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRtHFrh9QLEd8dsOscxavBpqnJipnR72gwnsU0bcL-ANvsOa0" id="header-img"></a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+			<a class="navbar-brand" href="#" ><img src="https://cdn3.iconfinder.com/data/icons/bikecons/512/bikecons_minivelo-256.png" id="header-img"></a>
 	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    		<span class="navbar-toggler-icon"></span>
 	  		</button>
@@ -36,23 +36,29 @@
 		<p class="text-center">Enter some text here explaining the product</p>
 	</section>
 
-	<main id="features">
-		
-	</main>
-
-	<section id="contact" class="container">
+	<main id="features" class="container">
+		<div class="row">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/TpN7wHFV9nc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video" class="rounded col-md-6 col-lg-6 col-xs-12"></iframe>
+		<section id="contact" class="container col-md-6 col-lg-6 col-xs-12">
 		<form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
 			<div class="form-group">
 				<label for="email">Enter your email to stay up to date with our best offers!</label>
 				<input type="email" name="email" id="email" placeholder="example@example.com" class="form-control">
-				<button class="btn btn-primary" type="submit" id="submit">Submit</button>
+				<input class="btn btn-primary" type="submit" id="submit" value="Submit">
 			</div>
 		</form>	
 	</section>
+		</div>
+	</main>	
 	
 	<footer id="footer" class="container">
 		<div>
 			<h5>Follow us in our social media:</h5>
+			<ul>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>				
+			</ul>
 		</div>		
 	</footer>
 	
